@@ -1,0 +1,90 @@
+.main-hero {
+    background: #fef8f5;
+    border-bottom: 2px solid #fcebe3;
+    min-height: 475px;
+}
+.animated-img {
+	    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+        margin-top: 20px;
+}
+ @keyframes up-down {
+    0% {
+      transform: translateY(10px);
+    }
+    100% {
+      transform: translateY(-5px);
+    }
+  }
+.exp h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #4e4039;
+}
+.exp p {
+	color: #a08f86;
+    font-size: 19px;
+}
+.btn-get-started {
+    font-size: 16px;
+    border-radius: 3px;
+    background: #eb5d1e;
+    text-decoration: none;
+}
+.exp h2 {
+	font-size: 38x;
+	color: #4e4039;
+}
+.about i {
+	color: #f39e7a;
+}
+.about p {
+	font-size: 17px;
+	color: black;
+}
+.how-text {
+	color: black !important;
+}
+.section-title p {
+	    font-size: 32px;
+    font-weight: 700;
+    color: #4e4039;
+}
+.section-title h6 {
+	    font-size: 24px;
+    font-weight: 700;
+    color: #c2b7b1;
+}
+.services {
+        padding: 30px;
+    box-shadow: 0 10px 29px 0 rgb(68 88 144 / 10%);
+    transition: all 0.3s ease-in-out;
+    border-radius: 15px;
+    border-bottom: 3px solid #fff;
+    widows: 100%;
+    min-height: 385px;
+}
+.services:hover {
+    transform: translateY(-5px);
+    border-color: #ef7f4d;
+}
+.services i {
+    color: #ef7f4d;
+}
+a {
+    text-decoration: none;
+}
+.title a {
+    color: black;
+    font-size: 20px;
+}
+.get {
+    font-size: 18px !important;
+    font-weight: normal !important;
+}
+.business:hover {
+        box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
+}
+#siteVariant a.pnapnacore-active{
+    border-bottom: solid 3px #022c67;
+    background: #dbdbdb;
+  }

@@ -1,0 +1,330 @@
+.form-v4-content  {
+	display: flex;
+	display: -webkit-flex;
+	min-height: 100vh;
+}
+.form-v4-content h2 {
+	font-weight: 700;
+	font-size: 30px;
+	padding: 6px 0 0;
+	margin-bottom: 0px;
+}
+.form-v4-content .form-left {
+	background: #e7e7e7;
+	/*padding: 20px 40px;*/
+	position: relative;
+	width: 100%;
+	color: #fff;
+}
+.form-v4-content .form-left p {
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1.5;
+}
+.form-v4-content .form-left span {
+	font-weight: 700;
+}
+.form-v4-content .form-left .text-2 {
+	margin: 20px 0 25px;
+}
+.form-v4-content .form-left .account {
+	background: #fff;
+	border-top-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	width: 180px;
+	border: none;
+	margin: 15px 0 50px 0px;
+	cursor: pointer;
+	color: #333;
+	font-weight: 700;
+	font-size: 15px;
+	appearance: unset;
+    -moz-appearance: unset;
+    -webkit-appearance: unset;
+    -o-appearance: unset;
+    -ms-appearance: unset;
+    outline: none;
+    -moz-outline: none;
+    -webkit-outline: none;
+    -o-outline: none;
+    -ms-outline: none;
+}
+.form-v4-content .form-left .account:hover {
+	background: #e5e5e5;
+}
+.form-v4-content .form-right {
+    padding: 20px 40px;
+	position: relative;
+	width: 50%;
+}
+.sign-up-content .form-v4-content .form-right {
+	background: #ffffff;
+}
+.form-v4-content .form-right .form-group {
+	display: flex;
+	display: -webkit-flex;
+	margin:  0 -8px;
+}
+.form-v4-content .form-right .form-row {
+	width: 100%;
+	position: relative;
+}
+.form-v4-content .form-right .form-group .form-row.form-row-1 {
+	width: 50%;
+	padding: 0 8px;
+}
+.form-v4-content .form-right label {
+	font-weight: 600;
+	font-size: 15px;
+	color: #666;
+	display: block;
+	margin-bottom: 8px;
+}
+.form-v4-content .form-right .form-row label.error {
+	padding-left: 0;
+	margin-left: 0;
+    display: block;
+    position: absolute;
+    bottom: -5px;
+    width: 100%;
+    background: none;
+    color: red;
+}
+.form-v4-content .form-right .input-text {
+	margin-bottom: 27px;
+}
+.form-v4-content .form-right .form-row input {
+	width: 100%;
+    padding: 11.5px 15px;
+    border: 1px solid #e5e5e5;
+    appearance: unset;
+    -moz-appearance: unset;
+    -webkit-appearance: unset;
+    -o-appearance: unset;
+    -ms-appearance: unset;
+    outline: none;
+    -moz-outline: none;
+    -webkit-outline: none;
+    -o-outline: none;
+    -ms-outline: none;
+    font-size: 15px;
+    color: #333;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+}
+.form-v4-content .form-right .form-row input:focus {
+	border: 1px solid #bfbfbf;
+}
+
+@media screen and (max-width: 991px) {
+	.form-v4-content {
+		flex-direction:  column;
+		-o-flex-direction:  column;
+		-ms-flex-direction:  column;
+		-moz-flex-direction:  column;
+		-webkit-flex-direction:  column;
+	}
+	.form-v4-content .form-left {
+		width: auto;
+		border-top-right-radius: 10px;
+		border-bottom-left-radius: 0;
+	}
+	.form-v4-content .form-right {
+		padding: 30px 20px 30px 20px;
+	    width: auto;
+	}
+	.form-left{display: none;}
+}
+@media screen and (max-width: 575px) {
+	.form-v4-content .form-right .form-group {
+		flex-direction: column;
+		-o-flex-direction:  column;
+		-ms-flex-direction:  column;
+		-moz-flex-direction:  column;
+		-webkit-flex-direction:  column;
+		margin: 0;
+	}
+	.form-v4-content .form-right .form-group .form-row.form-row-1 {
+		width: 100%;
+		padding:  0;
+	}
+}
+.top-bar, header, .header-notice, footer{display: none;}
+.auth-logo {
+	padding: 20px;
+	background-color: transparent;
+}
+.sign-up-content .left-banner, .sign-up-content .auth-logo{
+	/*background-color: #fd6e18;*/
+}
+
+.auth-logo img{max-height: 40px;}
+.fa-long-arrow-left{
+    padding: 4px;
+    border-radius: 20px;
+    box-shadow: 0px 1px 4px 0px rgb(28 39 60 / 39%);
+    cursor: pointer;
+}
+.fa-long-arrow-left:hover{
+	background: #f7f7f7;
+    box-shadow: 0px 1px 4px 0px rgb(28 39 60 / 68%);
+    transition: all 0.3s;
+}
+.have-acc{
+	float: right;
+}
+ins{text-decoration: underline!important;}
+#signUpForm, #signInForm{
+	padding: 10px;
+	position: sticky;
+	top: 0;
+}
+.step-button{
+	cursor: pointer;
+    background: #ffc107;
+    border: solid 1px #ffc107;
+    padding: 4px 12px;
+    border-radius: 2px;
+}
+.step-button:hover{
+    background: #f3b600;
+    border: solid 1px #f3b600;
+}
+input.invalid {
+    background-color: #ffdddd
+}
+.tab {
+    display: none
+}
+#prevBtn {
+  background-color: #bbbbbb;
+  border: solid 1px #bbbbbb;
+}
+#prevBtn:hover{
+  background-color: #a7a7a7;
+  border: solid 1px #a7a7a7;
+}
+.step {
+    height: 8px;
+    width: 33%;
+    background-color: #bbbbbb;
+    border: none;
+    display: inline-block;
+    opacity: 0.5;
+}
+.step.active {
+    opacity: 1
+}
+.step.finish {
+    background-color: #4CAF50
+}
+.all-steps {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 30px
+}
+.thanks-message {
+    display: none
+}
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.container input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+.container:hover input~.checkmark {
+    background-color: #ccc;
+}
+.container input:checked~.checkmark {
+    background-color: #2196F3;
+}
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.container input:checked~.checkmark:after {
+    display: block;
+}
+.container .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+.fValidations p{
+	margin-bottom: 8px;
+    color: #ffb1b1;
+    font-size: 16px;
+}
+.show_hide_password .fa{
+	position: absolute;
+    bottom: 21px;
+    right: 14px;
+}
+.show_hide_password.login-pass .fa{
+	position: absolute;
+    top: 46px;
+    right: 22px;
+}
+.float-right{float: right;}
+.text-center{text-align: center;}
+
+
+
+
+
+
+
+
+
+
+.maroon-icon{
+	font-size: 48px;
+    color: #d90000;
+}
+.text-secondary {
+    font-size: 20px !important;
+    text-align: justify;
+}
+.input-group-text{
+	padding: 10px 12px;
+	border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.modal .close {
+    position: absolute;
+    right: -30px;
+    top: 0;
+    z-index: 999;
+    font-size: 2rem;
+    font-weight: normal;
+    color: #fff;
+    opacity: 1;
+    cursor: pointer;
+}

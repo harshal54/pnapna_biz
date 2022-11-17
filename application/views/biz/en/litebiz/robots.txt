@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /
+
+Sitemap: https://pnapnalitebiz.com/sitemap.xml

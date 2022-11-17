@@ -1,0 +1,90 @@
+.banner-title{
+  font-size:72px;
+  color: #022c67;
+  padding-left: 35px;
+  position: relative;
+  background: url('../imgs/red-circle.png');
+  background-repeat: no-repeat;
+}
+.banner-container{
+  background-color: #f2f2f2 !important;
+  background: url(../imgs/bg-lines.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text-red{color: #d00909!important;}
+.powered-by{
+  padding-left: 35px;
+}
+.powered-by h4,.powered-by small{
+  color: #8f8f8f;
+  line-height: 8px;
+}
+.powered-by small{
+  font-size: 12px;
+}
+@media(max-width: 1244px){
+  .banner-title{
+    font-size: 62px;
+  }
+}
+@media(max-width: 1080px){
+  .banner-title{
+    font-size:52px;
+    /*margin-left: 30px;*/
+    color: #022c67
+  }
+}
+@media(max-width: 991px){
+  .cleaners-colo{
+    display: none!important;
+  }
+  .get-new-leads{
+    padding: 20px !important;
+  }
+  .banner-title{
+    font-size: 38px;
+  }
+}
+@media(max-width: 767px){
+  .banner-img-block{
+    margin-top: 0px !important;
+  }
+  .banner-img-block img{
+    width: 200px;
+  }
+  .banner-title{
+    font-size:25px;
+    padding-top: 15px!important;
+  }
+  .icon-whyus{
+    width: 100px;
+  }
+  .get-new-leads{
+    padding: 20px !important;
+    text-align: center;
+  }
+  .get-new-leads-content{margin-top: 0px!important;}
+  .get-new-leads-img img{width: 180px;}
+  .powered-by{margin-top: 15px;}
+}
+@media(max-width: 575px){
+  .banner-img-block{
+    display: none !important;
+  }
+  .banner-title{
+    font-size:60px;
+    margin-left: 0px;
+  }
+  .ctc-gif{
+    text-align: center;
+  }
+}
+.get-new-leads{
+  padding-top: 55px;
+  padding-bottom: 150px;
+  padding-left: 90px;
+  padding-right: 50px;
+  background-color: #eeeded;
+  color: #022c67;  
+}

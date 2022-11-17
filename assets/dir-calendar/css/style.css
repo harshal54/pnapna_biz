@@ -1,0 +1,231 @@
+.soft {
+    border-top: solid 1px #f1f1f1;
+}
+.service-card {
+    padding: 22px 0px 0px 13px;
+    background-color: rgba(255,255,255,.9);
+    box-shadow: 3px 3px 10px rgb(0 0 0 / 10%);
+}
+hr {
+    display: block;
+    box-sizing: content-box;
+    height: 1px;
+    margin: 2em 0;
+    padding: 0;
+    border: 0;
+    border-top: 2px solid #dddcdc;
+}
+.go-btn {
+    width: max-content;
+    font-size: inherit;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 10px 41px 6px;
+    font-size: 18px;
+}
+.arve-video {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.field h1 {
+    color: #4A4A4A;
+    font-size: 41px;
+    line-height: 1.1;
+    font-weight: 200;
+}
+.field p {
+    color: #4a4a4a;
+    font-size: 15px;
+    line-height: 25px;
+}
+.third-bg {
+    background-image: url(../img/field-service-software.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+.service-card h3 {
+    font-size: 49px;
+    font-weight: 200;
+    line-height: 1.1;
+    color: #8a8b8b;
+}
+.service-card p{
+    color: #8a8b8b;
+    font-size: 15px;
+    line-height: 25px;
+}
+.smart h2 {
+    font-size: 45px;
+    line-height: 1.1;
+    font-weight: 200;
+    color: #8a8b8b;
+}
+.smart span {
+    font-size: 16px;
+    color: #8a8b8b;
+}
+.home h6 {
+    font-size: 30px;
+    font-weight: 200;
+    color: #8a8b8b;
+}
+.home p {
+    font-size: 18px;
+    color: #8a8b8b;
+}
+.demo-btn {
+    padding: 12px 70px 10px;
+    border-radius: 6px;
+    font-size: inherit;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.sixth-bg {
+    background-image: url(../img/home_electrical_bg.jpg);
+    min-height: 398px;
+    position: relative;
+    background-size: cover;
+    box-sizing: border-box;
+}
+.mobile h4 {
+    font-size: 41px;
+    font-weight: 200;
+}
+.image-container {
+    text-align: center;
+    margin-bottom: 30px;
+}
+@media only screen and (max-width: 600px) {
+    .image-container {
+        display: none;
+    }
+    .tab-content video{
+        height: 100%;
+    }
+    .fourth-bg img, .plumbing-img img{width: 100%;}
+}
+.image-container a:first-of-type {
+    transform: translateY(15px);
+}
+.image-container a:first-of-type img {
+    transform-origin: bottom right;
+    transform: rotate( 
+        -15deg
+        );
+    );
+}
+.image-container a:nth-of-type(2) {
+    margin: 0 10px 0 20px;
+}
+.image-container a:nth-of-type(2) img {
+    transform-origin: bottom center;
+    transform: rotate(
+        -7deg
+        );
+}
+.image-container a:nth-of-type(3) {
+    margin: 0 20px 0 10px;
+}
+.image-container a:nth-of-type(3) img {
+    transform-origin: bottom center;
+    transform: rotate(
+        7deg
+        );
+}
+.image-container a:last-of-type {
+    transform: translateY(15px);
+}
+.image-container a:last-of-type img {
+    transform-origin: bottom left;
+    transform: rotate(
+        15deg
+        );
+}
+.techno h1 {
+    color: #4a4a4a;
+    font-weight: 200;
+    font-size: 43px;
+}
+.techno p {
+    color: #4a4a4a;
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 200;
+}
+.books-head h2 {
+    font-size: 39px;
+    font-weight: 200;
+}
+.books-head p {
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 30px;
+}
+.plumbing-img .card{
+    box-shadow: 0 0px 4px rgb(0 0 0 / 41%);
+    border-radius: 6px;
+    display: block;
+}
+.plumbing-img .card img{
+    border-radius: 6px;
+    margin: 5px;
+    width: 150px;
+}
+.plumbing-img .card h4{
+    background: #e8e8e8;
+    padding: 5px 0;
+    margin-bottom: 0;
+    border-top: solid 1px #dfdfdf;
+}
+.for-a {
+    color: #65c9ff !important;
+}
+.ftco-navbar-cal{
+    line-height: 15px;
+    padding: 0 5px;
+    background-image: linear-gradient(#94edff,#e0faff,#94edff);
+    text-shadow: 0 -1px #333;
+}
+.ftco-navbar-cal a{
+    color: #022c7f;
+    font-size: 15px;
+}
+.bg-whiteoff{background-color: #f7f7f9;}
+
+.napill-custom {
+    width: 100%;
+}
+.napill-custom .nav-link {
+    color: #aaa;
+    background: #fff;
+    position: relative;
+}
+
+.napill-custom .nav-link.active {
+    color: #45b649;
+    background: #fff;
+}
+
+@media (min-width: 992px) {
+    .napill-custom .nav-link::before {
+        content: '';
+        display: block;
+        border-top: 8px solid transparent;
+        border-right: 10px solid #fff;
+        border-bottom: 8px solid transparent;
+        position: absolute;
+        top: 50%;
+        left: -10px;
+        transform: translateY(-50%);
+        opacity: 0;
+    }
+}
+.napill-custom .nav-link.active::before {
+    opacity: 1;
+}
+.theme-color{color: #022c7f!important;}
+#siteVariant a.pnapnacal-active{
+    border-bottom: solid 3px #022c67;
+    background: #dbdbdb;
+}

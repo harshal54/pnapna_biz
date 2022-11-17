@@ -1,0 +1,56 @@
+.web-title{
+	/*font-size: 70px;*/
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+}
+.tx-45{font-size: 45px;}
+.py-60{padding-top: 60px; padding-bottom: 60px}
+.mt-100{margin-top: 100px}
+.tx-w-500{font-weight: 500}
+#team hr{background: #007bff;opacity: 1}
+.firstDiv{
+      text-transform: none;
+      font-size: 2.3em;
+      text-align: center;
+      color: #3575D3;
+    }
+    .fimage{
+      float: right;
+    }
+    .firstP{   
+     text-align: center;
+     margin-bottom: 3em;
+     font-size: 1.1em;
+   }
+   .domain-select{
+    background: #FFF;
+    width: 6em;
+    height: 32px;
+    margin-top: 8px;
+    padding: 3px 0;
+    border: 1px solid #3575BC;
+    border-radius: 8px;
+  }
+  .domaininput{
+    padding: .3em .4em;
+    border: 1px solid #3575B9;
+    line-height: 1.25em;
+    border-radius: 8px;
+  }
+  .card{
+        height: 355px  !important;
+  }
+  .card-body{
+        margin-top: 27px !important;
+  }
+  @media only screen and (max-width: 600px) {
+  .domain-select {
+        position: absolute;
+    margin-left: 3px;
+  }
+  .title{
+        font-size: 23px;
+  }
+}
+.contactForm{ box-shadow: 0px 1px 5px 3px #00000029; padding: 40px; }
+.mt-100{margin-top: 100px}

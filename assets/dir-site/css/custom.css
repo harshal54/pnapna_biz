@@ -1,0 +1,15 @@
+.ftco-navbar-light.scrolled{
+	background-color: #207dff!important;
+}
+.ftco-navbar-light.scrolled .nav-link{
+	color:white!important;
+}
+i.fa.fa-map-marker.fa-2x.faIcon {
+    color: white!important; 
+}
+i.fa {
+    margin: 0 5px;
+    font-size: 25px;
+}
+.w-100{width: 100%;}
+.my-15{margin: 15px 0px;}
