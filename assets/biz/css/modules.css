@@ -1,6 +1,32 @@
 /*------------- #MODULES --------------*/
 /*------------- #VARIABLES --------------*/
 /*------------- #HEADING --------------*/
+
+@media only screen and (min-width: 375px) and (max-width: 667px){
+.life-text,.head1{
+  font-size:20px;
+  text-align: center!important;
+   
+}
+.header-spacer{
+  display: none!important;
+}
+.slider-content-title,.slider-content-text,.main-slider-btn-wrap{
+  text-align: center;
+}
+}
+@media only screen and (min-width: 360px) and (max-width: 740px){
+  .life-text,.head1{
+    font-size:20px;
+    text-align: center!important;
+  }
+  .header-spacer{
+    display: none!important;
+  }
+  .slider-content-title,.slider-content-text,.main-slider-btn-wrap{
+    text-align: center;
+  }
+}
 .heading {
   position: relative;
   z-index: 5; }
@@ -744,7 +770,7 @@
   visibility: hidden; }
   @media (max-width: 1024px) {
     .top-bar-link {
-      display: block;
+      
       visibility: visible; } }
 
 /*------------- #SLIDERS --------------*/

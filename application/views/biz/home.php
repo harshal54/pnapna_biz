@@ -1,7 +1,6 @@
 <div class="content-wrapper">
-	<div class="header-spacer"></div>
 	<div class="container-full-width">
-		<div class="swiper-container main-slider" data-effect="fade" data-autoplay="4000">
+		<div class="swiper-container main-slider" data-effect="fade" >
 			<div class="swiper-wrapper">
 				<div class="swiper-slide " style="background-color: #14539A; ">
 					<div class="container">
