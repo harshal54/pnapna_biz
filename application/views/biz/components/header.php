@@ -1,4 +1,4 @@
-<header class="header" id="site-header " style="margin:5px!important;padding:5px!important;">
+<header class="header" id="site-header " >
   <div class="container">
     <div class="header-content-wrapper">
       <a href="#" id="top-bar-js" class="top-bar-link">TOPBAR</a>
