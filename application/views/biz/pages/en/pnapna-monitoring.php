@@ -11,7 +11,7 @@
     }
     #paragraph{
 color: #242a49;
- font-size:16px;
+ font-size:15px;
     }
     #heading1{
       margin: 0 0 10px 0;
@@ -189,18 +189,18 @@ text-align: center;
         <div class="col-lg-4 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
 
           <img src="<?=base_url();?>assets/biz/img/pnapna-card1.png" class="img-fluid " style="border-radius: 24px;">
-          <p id="paragraph" style="padding-top: 15px;">Monitor all your employee activity</p>
+          <p id="paragraph" style="padding-top: 15px;">Monitor all your employee activity, and time lost to non office activities</p>
         </div>
 
         <div class="col-lg-4 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
 
           <img src="<?=base_url();?>assets/biz/img/pnapna-card2.png" class="img-fluid card1" style="border-radius: 24px;">
-          <p id="paragraph" style="padding-top: 15px;">Track time work and create invoices</p>
+          <p id="paragraph" style="padding-top: 15px;">Track time worked, Create invoices, Get paid in realtime</p>
         </div>
         <div class="col-lg-4 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
 
           <img src="<?=base_url();?>assets/biz/img/pnapna-card3.png" class="img-fluid " style="border-radius: 24px;">
-          <p id="paragraph" style="padding-top: 15px;">Link account to CRM and measure Productivity</p>
+          <p id="paragraph" style="padding-top: 15px;">Link account to CRM and measure Productivity Level</p>
         </div>
 
       </div>
@@ -256,20 +256,20 @@ text-align: center;
 
       <div class="row">
         <div class="align-center" style="padding-bottom:30px;">
-          <h1 id="heading1" >Scale with precision,even at your highest speed</h1>
+          <h1 id="heading1" >Scale with precision, even at your highest speed</h1>
           <h5 id="heading5">Startups move fast, so we’ve built a product that keeps you in control.</h5>
         </div>
         <div style="display:flex; padding-bottom: 50px;" class="align-center">
-          <div> <a href="lead-generation.html" style="background-color:#B7A0AC; padding:15px 60px; margin-right: 10px;border-radius: 25px;"><i class="fa fa-headphones menu-icon"></i>&nbsp; &nbsp;
+          <div> <a href="<?=base_url('en/page/lead-generations');?>" style="background-color:#B7A0AC; padding:15px 60px; margin-right: 10px;border-radius: 25px;"><i class="fa fa-headphones menu-icon"></i>&nbsp; &nbsp;
             Lead Generation <i class="seoicon-right-arrow show "></i>
           </a>
-          <a href="project-manager.html" style="background-color:#B7A0AC; padding:15px 60px; margin-right: 10px;border-radius: 25px;"><i class="fa fa-product-hunt menu-icon"></i>&nbsp; &nbsp;
+          <a href="<?=base_url('en/page/project-manager');?>" style="background-color:#B7A0AC; padding:15px 60px; margin-right: 10px;border-radius: 25px;"><i class="fa fa-product-hunt menu-icon"></i>&nbsp; &nbsp;
             Project Manager  <i class="seoicon-right-arrow show"></i>
 
           </a>
-          <a href="crm.html" style="background-color:#B7A0AC; padding:15px 93px; margin-right: 10px; border-radius: 25px;"><i class="fa fa-address-card-o menu-icon"></i>&nbsp;&nbsp;
+          <a href="<?=base_url('en/page/crm');?>" style="background-color:#B7A0AC; padding:15px 93px; margin-right: 10px; border-radius: 25px;"><i class="fa fa-address-card-o menu-icon"></i>&nbsp;&nbsp;
             CRM <i class="seoicon-right-arrow show "></i></a>
-            <a href="cloud-folder-storage.html" style="background-color:#B7A0AC; padding:15px 50px; margin-right: 10px; border-radius: 25px;"><i class="fa fa-cloud-upload menu-icon"></i>&nbsp;&nbsp;
+            <a href="<?=base_url('en/page/cloud-folder-storage');?>" style="background-color:#B7A0AC; padding:15px 50px; margin-right: 10px; border-radius: 25px;"><i class="fa fa-cloud-upload menu-icon"></i>&nbsp;&nbsp;
               Cloud Folders Storage <i class="seoicon-right-arrow show "></i>
             </a>
 
@@ -279,18 +279,18 @@ text-align: center;
         </div>
 
         <div  >
-          <div class="align-center">   <a href="private-chat.html"style="background-color:#B7A0AC; padding:15px 80px; margin-right: 10px;border-radius: 25px;">
+          <div class="align-center">   <a href="<?=base_url('en/page/private-chat');?>" style="background-color:#B7A0AC; padding:15px 80px; margin-right: 10px;border-radius: 25px;">
             <i class="fa fa-commenting menu-icon"></i>&nbsp; &nbsp;
             Private Chat  <i class="seoicon-right-arrow show"></i>
           </a>
-          <a href="05_service_details_localseo.html" style="background-color:#B7A0AC; padding:15px 50px; margin-right: 10px;border-radius: 25px;"><i class="fa fa-headphones menu-icon"></i>&nbsp; &nbsp;
+          <a href="<?=base_url('en/page/schedulingcalendar');?>" style="background-color:#B7A0AC; padding:15px 50px; margin-right: 10px;border-radius: 25px;"><i class="fa fa-headphones menu-icon"></i>&nbsp; &nbsp;
             Time Calculation <i class="seoicon-right-arrow show "></i>
           </a>
         </div>
       </div>
       <div style="padding-top: 50px;" >
           <div class="align-center"> 
-          <a href="05_service_details_localseo.html" style="background:#B7A0AC; padding:15px 50px; margin-right: 10px;border-radius: 25px;">
+          <a href="<?=base_url('en/page/features');?>" style="background:#B7A0AC; padding:15px 50px; margin-right: 10px;border-radius: 25px;">
            See all Features <i class="seoicon-right-arrow show "></i>
           </a>
         </div>
@@ -310,32 +310,38 @@ text-align: center;
         <div class="col-lg-2 col-xl-2 col-sm-6  col-md-3 col-xs-6">
 
           <img src="<?=base_url();?>assets/biz/img/feature-image1.png" class="img-fluid card1 " >
+          <p id="paragraph" style="padding-top: 15px; text-align: center;">Lead Generation </p>
 
         </div>
 
         <div class="col-lg-2 col-xl-2 col-sm-6  col-md-3 col-xs-6">
 
           <img src="<?=base_url();?>assets/biz/img/feature-image2.png" class="img-fluid card1">
+          <p id="paragraph" style="padding-top: 15px; text-align: center;">Project Manager</p>
 
         </div>
         <div class="col-lg-2 col-xl-2 col-sm-6  col-md-3 col-xs-6">
 
           <img src="<?=base_url();?>assets/biz/img/feature-image3.png" class="img-fluid card1">
+          <p id="paragraph" style="padding-top: 15px; text-align: center;">Task Manager</p>
 
         </div>
         <div class="col-lg-2 col-xl-2 col-sm-6  col-md-3 col-xs-6">
 
           <img src="<?=base_url();?>assets/biz/img/feature-image4.png" class="img-fluid card1">
+          <p id="paragraph" style="padding-top: 15px; text-align: center;">White Board</p>
 
         </div>
         <div class="col-lg-2 col-xl-2 col-sm-6  col-md-3 col-xs-6">
 
           <img src="<?=base_url();?>assets/biz/img/feature-image5.png" class="img-fluid card1">
+          <p id="paragraph" style="padding-top: 15px; text-align: center;">Encrypted track email</p>
 
         </div>
         <div class="col-lg-2 col-xl-2 col-sm-6  col-md-3 col-xs-6">
 
           <img src="<?=base_url();?>assets/biz/img/feature-image6.png" class="img-fluid card1">
+          <p id="paragraph" style="padding-top: 15px; text-align: center;">Cloud folder storage</p>
 
         </div>
 
@@ -353,7 +359,7 @@ text-align: center;
           <h1 class="text-center" style="color:white;">Pay $0/month.</h1>
           <h1 class="text-center" style="color:white;">Get pro feature $9.99/month</h1>
           <h1 class="text-center" style="color:white;">Get Life time subscription for $99 </h1><br>
-          <button type="button" class="btn add_btn " ><a href="<?=base_url('pricing-plans');?>"> See pricing and plans</a></button>
+          <button type="button" class="btn add_btn " ><a href="<?=base_url('en/page/pricing-plans');?>"> See pricing and plans</a></button>
         </div>
 
       </div>
@@ -434,7 +440,7 @@ text-align: center;
         <div class="col-lg-12 text-center text-center " >
          
           <div class="align-center">
-            <h1  id="heading1">Get Started and reap the benifits<br>
+            <h1  id="heading1">Get Started and reap the benefits<br>
             in 10 minutes or less</h1>
             <h5 id="heading5">Scale smoothly with our application.</h5><br>
             <button type="button" class="btn add_btn " ><a href="<?=base_url('signin');?>"> Sign In </a></button>

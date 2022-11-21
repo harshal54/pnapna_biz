@@ -217,7 +217,7 @@
                             style="font-weight: 400;color: #242a49;font-family: NeueMontrealBook,Arial,sans-serif;line-height: 1.2!important;">
                             Check employee productivity on a daily basis</h1><br>
                         <p class="boost-text1" style="color: #242a49;font-size: 18px!important;">Each employee's daily
-                            activities are divide into idle time and break time, productive time.</p>
+                            activities are divided into idle time and break time, productive time.</p>
                     </div>
                 </div>
 
