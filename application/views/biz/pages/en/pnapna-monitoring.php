@@ -187,7 +187,7 @@ text-align: center;
         <div style="padding:100px 0px">
           <h1 id="heading1">Electronic monitoring<br> for your employees </h1>
           <br>
-          <h6 id="heading6" >Pnapna monitoring is an employee monitoring<br> application for your employees worldwide.</h6>
+          <h6 id="heading6" >PnaPna monitoring is an employee monitoring<br> application for your employees worldwide.</h6>
           <div class="d-flex justify-content-center justify-content-lg-start" id="get-start">
             <a href="<?=base_url('signin');?>" id="btn-get-started">Sign In</a>
 

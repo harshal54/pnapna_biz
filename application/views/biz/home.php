@@ -383,12 +383,12 @@
 										<i class="fa fa-angle-right" aria-hidden="true"></i>
 										<i class="fa fa-angle-down active" aria-hidden="true"></i>
 									</span>
-									<span class="ovh">What Industries Does Pnapna Serve?</span>
+									<span class="ovh">What Industries Does PnaPna Serve?</span>
 								</a>
 							</div>
 							<div id="toggleSecond" class="panel-collapse collapse" aria-expanded="false" role="tree">
 								<div class="panel-info">
-									We serve 90% of the 38 million SME’s in USA, including businesses like filed services, freelancers, in-office and retail etc. 
+									We serve 90% of the 38 million SME’s in USA, including businesses like field services, freelancers, in-office and retail etc. 
 								</div>
 							</div>
 						</li>
@@ -399,7 +399,7 @@
 										<i class="fa fa-angle-right" aria-hidden="true"></i>
 										<i class="fa fa-angle-down active" aria-hidden="true"></i>
 									</span>
-									<span class="ovh">What Businesses Use Pnapna Software ?</span>
+									<span class="ovh">What Businesses Use PnaPna Software ?</span>
 								</a>
 							</div>
 							<div id="toggleThird" class="panel-collapse collapse" aria-expanded="false" role="tree">
@@ -415,7 +415,7 @@
 										<i class="fa fa-angle-right" aria-hidden="true"></i>
 										<i class="fa fa-angle-down active" aria-hidden="true"></i>
 									</span>
-									<span class="ovh">What Are Pnapna Applications?</span>
+									<span class="ovh">What Are PnaPna Applications?</span>
 								</a>
 							</div>
 							<div id="toggleFourth" class="panel-collapse collapse" aria-expanded="false" role="tree">
@@ -438,7 +438,7 @@
 				<div class="row">
 					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 						<div class="heading">
-							<h4 class="h1 heading-title">Test Pnapna And Earn Cash</h4>
+							<h4 class="h1 heading-title">Test PnaPna And Earn Cash</h4>
 							<div class="heading-line">
 								<span class="short-line bg-yellow-color"></span>
 								<span class="long-line bg-yellow-color"></span>
