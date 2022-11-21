@@ -3,6 +3,7 @@
     #hero {
      background-image: url("<?=base_url()?>assets/biz/img/pnapna-moniter-head.png");
       background-repeat: no-repeat;
+      margin-top:100px;
       background-size: 100% 100%;
     }
     #paragraph{
