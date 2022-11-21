@@ -218,7 +218,7 @@ text-align: center;
 
         <div class="col-lg-4 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
 
-          <img src="<?=base_url();?>assets/biz/img/pnapna-card2.png" class="img-fluid card1" style="border-radius: 24px;">
+          <img src="<?=base_url();?>assets/biz/img/pnapna-card2.png" class="img-fluid " style="border-radius: 24px;">
           <p id="paragraph" style="padding-top: 15px;">Track time worked, Create invoices, Get paid in realtime</p>
         </div>
         <div class="col-lg-4 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
@@ -383,7 +383,7 @@ text-align: center;
           <h1 class="text-center" style="color:white;">Pay $0/month.</h1>
           <h1 class="text-center" style="color:white;">Get pro feature $9.99/month</h1>
           <h1 class="text-center" style="color:white;">Get Life time subscription for $99 </h1><br>
-          <button type="button" class="btn add_btn " ><a href="<?=base_url('en/page/pricing-plans');?>"> See pricing and plans</a></button>
+          <button type="button" class="btn add_btn " ><a href="<?=base_url('en/page/pricing-plans');?>">Pricing and Plans</a></button>
         </div>
 
       </div>
@@ -477,85 +477,87 @@ text-align: center;
   </section>
 
 </main>
-  <!-- ======= Footer ======= -->
-  <div class="footer-top" >
+ <!-- ======= Footer ======= -->
+ <div class="footer-top" >
     <div class="container  ">
       <div class="row pt120 mb60">
 
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 footer-contact">
           <h4 style=" font-size: 15px;
-          margin: 0 0 10px 0;
-          padding: 2px 0 2px 0;
-          line-height: 1;
-          text-transform: uppercase;
-          font-weight: 600;
-          color: #37517e;" >PnaPna</h4 >
+    margin: 0 0 10px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #37517e;" >PnaPna</h4 >
           <p style="font-size: 15px;color: #777777;">
             82 School St., Piscataway <br>
             NEW JERSEY,
-            08854 USA<br>
-            <strong>Phone:</strong> 1 (908) 801-6225<br>
-            <strong>Email:</strong> info@pnapna.com<br>
+            08854 USA
           </p>
         </div>
 
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12footer-links">
           <h4 style=" font-size: 15px;
-          margin: 0 0 10px 0;
-          padding: 2px 0 2px 0;
-          line-height: 1;
-          text-transform: uppercase;
-          font-weight: 600;
-          color: #37517e;" >ACCOUNT</h4>
+    margin: 0 0 10px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #37517e;" >Phone</h4>
           <ul style="list-style-type: none; padding: 0; 
-          margin: 0;"  >
-          <li><i class="bx bx-chevron-right"></i> <a href="<?=base_url('signup');?>" style="color: #777777;">Open Account</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="<?=base_url('signin');?>" style="color: #777777;">Log In</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#" style="color: #777777;">iOS App</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#" style="color: #777777;">Android App</a></li>
+     margin: 0;"  >
+            <li><i class="bx bx-chevron-right"></i> <a href="tel:1 908 801.6225" style="color: #777777;"> 1 (908) 801-6225</a></li>
 
-        </ul>
+            <!-- <li><i class="bx bx-chevron-right"></i> <a href="#" style="color: #777777;">Open Account</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#" style="color: #777777;">Log In</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#" style="color: #777777;">iOS App</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#" style="color: #777777;">Android App</a></li>
+ -->
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 footer-links ">
+          <h4 style=" font-size: 15px;
+    margin: 0 0 10px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #37517e;" >Email</h4>
+          <ul style="list-style-type: none;padding: 0; 
+     margin: 0;" >
+      
+            <li> <a href="mailto:info@pnapna.com" style="color: #777777;"> info@pnapna.com<br></a></li>
+            <!-- <li> <a href="#" style="color: #777777;">Product Demo</a></li>
+            <li> <a href="#" style="color: #777777;">Pricing</a></li>
+            <li> <a href="#" style="color: #777777;">Help Center</a></li>
+            <li> <a href="#" style="color: #777777;">Features</a></li> -->
+
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 footer-links mb60">
+          <h4 style=" font-size: 15px;
+    margin: 0 0 10px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #37517e;" >LEARN</h4>
+          <ul style="list-style-type: none;padding: 0; 
+     margin: 0;" >
+            <li> <a href="#" style="color: #777777;">Learn</a></li>
+            <!-- <li> <a href="#" style="color: #777777;">Contact Us</a></li>
+            <li> <a href="#" style="color: #777777;">FAQ</a></li> -->
+            <li> <a href="#" style="color: #777777;">Download App</a></li>
+
+          </ul>
+        </div>
       </div>
 
-      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 footer-links ">
-        <h4 style=" font-size: 15px;
-        margin: 0 0 10px 0;
-        padding: 2px 0 2px 0;
-        line-height: 1;
-        text-transform: uppercase;
-        font-weight: 600;
-        color: #37517e;" >GETTING STARTED</h4>
-        <ul style="list-style-type: none;padding: 0; 
-        margin: 0;" >
-        <li> <a href="#" style="color: #777777;">Product Demo</a></li>
-        <li> <a href="<?=base_url('en/page/pricing-plans');?>" style="color: #777777;">Pricing</a></li>
-        <li> <a href="<?=base_url('en/page/help-desk');?>" style="color: #777777;">Help Center</a></li>
-        <li> <a href="<?=base_url('en/page/features');?>" style="color: #777777;">Features</a></li>
-
-      </ul>
     </div>
-
-    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 footer-links mb60">
-      <h4 style=" font-size: 15px;
-      margin: 0 0 10px 0;
-      padding: 2px 0 2px 0;
-      line-height: 1;
-      text-transform: uppercase;
-      font-weight: 600;
-      color: #37517e;" >LEARN</h4>
-      <ul style="list-style-type: none;padding: 0; 
-      margin: 0;" >
-      <li> <a href="https://pnapna.com/insights" style="color: #777777;">Blog</a></li>
-      <li> <a href="<?=base_url('en/page/contacts');?>" style="color: #777777;">Contact Us</a></li>
-      <li> <a href="#" style="color: #777777;">FAQ</a></li>
-      <li> <a href="#" style="color: #777777;">Download App</a></li>
-
-    </ul>
   </div>
-</div>
-
-</div>
-</div>
 <!-- End Footer -->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
