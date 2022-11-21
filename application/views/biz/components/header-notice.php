@@ -34,6 +34,7 @@
 
 <div >
   <h6 class="bg header-notice">
+    <span>
     <a href="<?=base_url('en/page/plans')?>" class="life-text">Life Time License &nbsp;<del >$2,999.00</del> $99.00</a>
     <span>
       <a href="<?=base_url('en/page/customer-leads')?>" class="head1" >
