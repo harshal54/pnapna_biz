@@ -26,7 +26,7 @@
                     <p style="font-size: 15px;"> <i class="seoicon-check"></i> &nbsp;&nbsp;Data Export to CSV, XLS </p>
                     <p style="font-size: 15px;" ><i class="seoicon-check"></i>&nbsp;&nbsp;Priority support</p>
                     <p style="font-size: 15px;"><i class="seoicon-check"></i>&nbsp;&nbsp;Premium lite CRM</p>
-                    <a href="" class="btn btn-medium " style="background-color: #258aff; border-radius: 0px!important">
+                    <a href="<?=base_url('signup');?>" class="btn btn-medium " style="background-color: #258aff; border-radius: 0px!important">
                             <span class="text">Create free account</span>
                            
                         </a>

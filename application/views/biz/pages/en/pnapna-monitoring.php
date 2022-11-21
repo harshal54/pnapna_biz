@@ -164,7 +164,7 @@ text-align: center;
           <br>
           <h6 id="heading6" >Pnapna monitoring is an employee monitoring<br> application for your employees worldwide.</h6>
           <div class="d-flex justify-content-center justify-content-lg-start" id="get-start">
-            <a href="#about" id="btn-get-started">Sign In</a>
+            <a href="<?=base_url('signin');?>" id="btn-get-started">Sign In</a>
 
           </div>
         </div>
@@ -353,7 +353,7 @@ text-align: center;
           <h1 class="text-center" style="color:white;">Pay $0/month.</h1>
           <h1 class="text-center" style="color:white;">Get pro feature $9.99/month</h1>
           <h1 class="text-center" style="color:white;">Get Life time subscription for $99 </h1><br>
-          <button type="button" class="btn add_btn " >See pricing and plans</button>
+          <button type="button" class="btn add_btn " ><a href="<?=base_url('pricing-plans');?>"> See pricing and plans</a></button>
         </div>
 
       </div>
