@@ -1,13 +1,9 @@
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <style>
     #hero {
-
-      
-      background-image: url("<?=base_url()?>assets/biz/img/pnapna-moniter-head.png");
-      background-size: cover;
+     background-image: url("<?=base_url()?>assets/biz/img/pnapna-moniter-head.png");
       background-repeat: no-repeat;
       background-size: 100% 100%;
-      margin-top:100px;
     }
     #paragraph{
 color: #242a49;
@@ -19,6 +15,11 @@ color: #242a49;
        line-height: 56px;
       color: #242a49;
       font-family:NeueMontrealBook,Arial,sans-serif;
+    }
+    #heading2{
+      font-size: 30px;
+      font-family:NeueMontrealBook,Arial,sans-serif;
+      color: white;
     }
     #btn-get-started {
       font-family: "Jost", sans-serif;
@@ -106,14 +107,14 @@ color: #242a49;
 	background: #d3d6e9;
 }
 .add_btn{
-  color: black!important;border-radius: 25px; border: 1px solid black;padding: 18px 50px; text-transform: none!important;
+  color: black!important;border-radius: 25px; border: 1px solid black;padding: 18px 50px; text-transform: none!important;background-color: white;
 }
 .add_btn:hover{
   background-color: #465ed1;
   color: white!important;
 }
  .card1{
-      background-color:rgba(231,233,244,.6); 
+      background-color:white!important; 
       border-radius: 24px;width: 100%;
       }
       .card1:hover {
@@ -146,12 +147,35 @@ text-align: center;
    #get-start{
     text-align: center;
    }
+    #hero {
+    
+      background-size: cover!important;
+     
+    }
+    .stretch{
+      padding-bottom: 15px;
+    }
+     #heading2{
+      text-align: center;
+      color: white;
+     }
+     .social{
+      display: none!important;
+     }
+     #why-us{
+      padding: 50px 0px;!important;
+     }
+     #payment_txt{
+      font-size: 23px!important;
+     }
+     #feature_img{
+      display: none;
+     }
   
     }
 
 
 </style>
-
 <main id="main">
 <!-- ======= Hero Section ======= -->
 <section id="hero" class="d-flex align-items-center">
@@ -260,7 +284,7 @@ text-align: center;
           <h5 id="heading5">Startups move fast, so we’ve built a product that keeps you in control.</h5>
         </div>
         <div style="display:flex; padding-bottom: 50px;" class="align-center">
-          <div> <a href="<?=base_url('en/page/lead-generations');?>" style="background-color:#B7A0AC; padding:15px 60px; margin-right: 10px;border-radius: 25px;"><i class="fa fa-headphones menu-icon"></i>&nbsp; &nbsp;
+          <div> <a href="<?=base_url('en/page/lead-generation');?>" style="background-color:#B7A0AC; padding:15px 60px; margin-right: 10px;border-radius: 25px;"><i class="fa fa-headphones menu-icon"></i>&nbsp; &nbsp;
             Lead Generation <i class="seoicon-right-arrow show "></i>
           </a>
           <a href="<?=base_url('en/page/project-manager');?>" style="background-color:#B7A0AC; padding:15px 60px; margin-right: 10px;border-radius: 25px;"><i class="fa fa-product-hunt menu-icon"></i>&nbsp; &nbsp;
