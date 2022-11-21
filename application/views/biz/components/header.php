@@ -261,7 +261,7 @@
             <ul class="dropdown">
               <li>
                 <a href="https://demo.pnapna.in/fieldservice/admin/authentication"><img src="<?=base_url()?>assets/biz/img/Cleaning-icon.png">&nbsp; &nbsp;
-                  Field Services
+                  Demo
                   <i class="seoicon-right-arrow"></i>
                 </a>
               </li>

@@ -62,8 +62,19 @@
       <div class="contact-item">
         <a href="https://thehomeetc.com/" target="_blank">the HOME etc</a>
       </div>
-    </div>
 
+      <div class="follow_us">
+      <div class="socials">
+        <a href="#" class="social__item" target="_blank">
+          <img src="<?=base_url()?>assets/biz/img/android.png" alt="android">
+        </a>
+        <a href="#" class="social__item" target="_blank">
+          <img src="<?=base_url()?>assets/biz/img/ios.png" alt="ios">
+        </a>
+      </div>
+    </div>
+    </div>
+    
     <div class="login-block">
       <img src="<?=base_url()?>assets/biz/img/signin_dark.png" class="sign-in" title="Guest User">
       <a href="#" class="user-menu-content  js-open-aside">

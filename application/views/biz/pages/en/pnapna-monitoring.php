@@ -334,38 +334,38 @@ text-align: center;
         <h5 id="heading5" >Revel in clever shortcuts and extra levels of organization.</h5></div>
         <div class="col-lg-2 col-xl-2 col-sm-6  col-md-3 col-xs-6">
 
-          <img src="<?=base_url();?>assets/biz/img/feature-image1.png" class="img-fluid card1 " >
+          <img src="<?=base_url();?>assets/biz/img/featuers-lead-generation-icon.png" class="img-fluid card1 " >
           <p id="paragraph" style="padding-top: 15px; text-align: center;">Lead Generation </p>
 
         </div>
 
         <div class="col-lg-2 col-xl-2 col-sm-6  col-md-3 col-xs-6">
 
-          <img src="<?=base_url();?>assets/biz/img/feature-image2.png" class="img-fluid card1">
+          <img src="<?=base_url();?>assets/biz/img/featuers-project-manager-icon.png" class="img-fluid card1">
           <p id="paragraph" style="padding-top: 15px; text-align: center;">Project Manager</p>
 
         </div>
         <div class="col-lg-2 col-xl-2 col-sm-6  col-md-3 col-xs-6">
 
-          <img src="<?=base_url();?>assets/biz/img/feature-image3.png" class="img-fluid card1">
+          <img src="<?=base_url();?>assets/biz/img/featuers-task-manager-icon.png" class="img-fluid card1">
           <p id="paragraph" style="padding-top: 15px; text-align: center;">Task Manager</p>
 
         </div>
         <div class="col-lg-2 col-xl-2 col-sm-6  col-md-3 col-xs-6">
 
-          <img src="<?=base_url();?>assets/biz/img/feature-image4.png" class="img-fluid card1">
+          <img src="<?=base_url();?>assets/biz/img/featuers-white-board-icon.png" class="img-fluid card1">
           <p id="paragraph" style="padding-top: 15px; text-align: center;">White Board</p>
 
         </div>
         <div class="col-lg-2 col-xl-2 col-sm-6  col-md-3 col-xs-6">
 
-          <img src="<?=base_url();?>assets/biz/img/feature-image5.png" class="img-fluid card1">
+          <img src="<?=base_url();?>assets/biz/img/featuers-email-tracking-icon.png" class="img-fluid card1">
           <p id="paragraph" style="padding-top: 15px; text-align: center;">Encrypted track email</p>
 
         </div>
         <div class="col-lg-2 col-xl-2 col-sm-6  col-md-3 col-xs-6">
 
-          <img src="<?=base_url();?>assets/biz/img/feature-image6.png" class="img-fluid card1">
+          <img src="<?=base_url();?>assets/biz/img/featuers-cloud-folder-icon.png" class="img-fluid card1">
           <p id="paragraph" style="padding-top: 15px; text-align: center;">Cloud folder storage</p>
 
         </div>

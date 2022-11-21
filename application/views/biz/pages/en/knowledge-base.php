@@ -53,7 +53,7 @@
 			<div class="col-lg-12">
 
 				<div class="heading align-center">
-					<h4 class="h5 heading-title">We Help Over 80 Companies</h4>
+					<h4 class="h5 heading-title">We Help Companies Worldwide</h4>
 				</div>
 
 				<!-- <ul class="cat-list align-center sorting-menu">

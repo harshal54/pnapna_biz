@@ -60,7 +60,7 @@
             <thead>
               <tr>
                 <tr style="background-color: #E2EFDA;display: table-row;" class="c-4">
-                  <td style="color:#70AD47;font-weight:500!important;font-size:30px;border-right: 1px solid #e2efda;">Life Time</td>
+                  <td style="color:#70AD47;font-weight:500!important;font-size:30px;border-right: 1px solid #e2efda;">Life Time <span style="font-size:14px;">(Limited Time Only)</span></td>
                   <td colspan="2" style="color:#70AD47;font-weight:500!important;font-size:30px;"><del style="text-decoration:line-through;color: red;">$2,999.00</del> $99.00/Life</td>
                 </tr>
                 <tr style="background-color: #DAE3F3;display: none" class="c-1">
