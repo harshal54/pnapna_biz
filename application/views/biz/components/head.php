@@ -1,6 +1,7 @@
 <head lang="en">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="google-site-verification" content="f8Hs6m3Kjfi1Bq4x0hx6B_HjZVMm0kQ4mcT6DhvYccc" />
   <title>PnaPna</title>
   <link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/biz/css/fonts.css">
   <link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/biz/css/crumina-fonts.css">

@@ -65,10 +65,8 @@
 
       <div class="follow_us">
       <div class="socials">
-        <a href="#" class="social__item" target="_blank">
+        <a href="<?=base_url('en/page/download')?>" class="social__item">
           <img src="<?=base_url()?>assets/biz/img/android.png" alt="android">
-        </a>
-        <a href="#" class="social__item" target="_blank">
           <img src="<?=base_url()?>assets/biz/img/ios.png" alt="ios">
         </a>
       </div>

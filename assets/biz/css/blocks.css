@@ -494,8 +494,8 @@
   padding: 40px;
   background-color: #f7f9f9;
   transition: all .3s ease; }
-  .info-box--modern:hover {
-    background-color: #2f2c2c; }
+  /* .info-box--modern:hover {
+    background-color: #2f2c2c; } */
     .info-box--modern:hover .info-box-content .info-box-title {
       color: #fff; }
     .info-box--modern:hover .info-box-content .read-more {
@@ -1264,7 +1264,7 @@ body.author .blog-details-author {
     .stunning-header .stunning-header-content .stunning-header-title1 {
       color: white; }
     .stunning-header .stunning-header-content .stunning-header-title {
-      color: black; }
+      color: white; }
       @media (max-width: 800px) {
         .stunning-header .stunning-header-content .stunning-header-title {
           font-size: 40px; } }
@@ -1410,7 +1410,7 @@ body.author .blog-details-author {
  background-color: #cb971D;}
  .stunning-header-bg-breez30 {
   background-image: url("../img/header-img.png"); 
- background-color: #67bb30;}
+ background-color: #2fbcff;}
  .stunning-header-bg-breez31 {
   background-image: url("../img/header-img.png"); 
  background-color: #f488dd;}
@@ -1458,7 +1458,7 @@ body.author .blog-details-author {
  background-color:#01596d;}
 .stunning-header-bg-breez3 {
   background-image: url("../img/header-img.png"); 
- background-color: #00ff00;}
+ background-color: #2fbcff;}
 
 .stunning-header-bg-breez4 {
   background-image: url("../img/header-img.png"); 
