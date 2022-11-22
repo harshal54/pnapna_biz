@@ -69,7 +69,7 @@
                       <p class="megamenu-item-info-text">For Office Productivity</p>
                     </li>
                     <li>
-                      <a href="<?=base_url('en/page/pnapna-monitoring')?>"> <img src="<?=base_url()?>assets/biz/img/Employee-Monitoring-icon.png">&nbsp; &nbsp;PnaPna Monitoring<i class="seoicon-right-arrow"></i></a>
+                      <a href="<?=base_url('en/page/monitoring')?>"> <img src="<?=base_url()?>assets/biz/img/Employee-Monitoring-icon.png">&nbsp; &nbsp;PnaPna Monitoring<i class="seoicon-right-arrow"></i></a>
                     </li>
                     <!-- <li>
                       <a href="<?=base_url('en/page/file')?>"> <img src="<?=base_url()?>assets/biz/img/Large-File-Transfer-icon.png">&nbsp; &nbsp;Large File Transfer<i class="seoicon-right-arrow"></i></a>
